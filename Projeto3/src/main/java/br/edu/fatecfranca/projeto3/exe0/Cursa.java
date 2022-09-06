@@ -53,6 +53,6 @@ public final class Cursa {
 
     @Override
     public String toString() {
-        return "Cursa{" + "codigo=" + codigo + ", data=" + data + ", aluno=" + aluno + ", disciplina=" + disciplina + '}';
+        return "Cursa {\n" + "codigo=" + codigo + "\ndata=" + data + "\naluno=" + aluno + "\ndisciplina=" + disciplina + "\n}";
     }   
 }

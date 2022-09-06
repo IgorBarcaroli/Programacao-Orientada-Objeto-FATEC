@@ -9,7 +9,6 @@ import java.util.Date;
 public class Projeto3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         Aluno objAluno = new Aluno(123456 , "João" );
         Disciplina objDisciplina = new Disciplina(12,"POO");
         Cursa obj = new Cursa(100, new Date(), objAluno, objDisciplina);
